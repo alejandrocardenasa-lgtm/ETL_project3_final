@@ -1,14 +1,42 @@
+# =========================
 # Python
+# =========================
 venv/
 __pycache__/
 *.pyc
+*.pyo
+*.pyd
 
-# Data (ajusta según lo que quieran compartir)
-data/raw/
-data/processed/
+# =========================
+# Mac / Windows
+# =========================
+.DS_Store
+Thumbs.db
 
-# Great Expectations (no subir resultados locales)
+# =========================
+# Data 
+# Ignorar todo raw
+data/raw/*
+
+# Permitir solo este archivo
+!data/raw/temperature_observations_colombia_transformed.csv
+
+# =========================
+# Great Expectations
+# =========================
 great_expectations/uncommitted/
 
-# Mac
-.DS_Store
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Jupyter 
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Secrets 
+# =========================
+.env
