@@ -169,7 +169,7 @@ def run_fact_validation(context, batch_request):
 
 
 def validate_fact_climate_daily():
-    print("Iniciando validación con Great Expectations...")
+    print("Iniciando validación con Great Expectations")
 
     context = gx.get_context()
 
@@ -203,5 +203,3 @@ def validate_fact_climate_daily():
     return run_fact_validation(context, batch_request)
 
 
-if __name__ == "__main__":
-    validate_fact_climate_daily()
