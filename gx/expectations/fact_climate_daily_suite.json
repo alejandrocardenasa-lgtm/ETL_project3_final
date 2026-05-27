@@ -24,6 +24,41 @@
       "meta": {}
     },
     {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "temperatura_promedio"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "temperatura_minima"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "temperatura_maxima"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "amplitud_termica"
+      },
+      "meta": {}
+    },
+    {
+      "expectation_type": "expect_column_values_to_not_be_null",
+      "kwargs": {
+        "column": "evento_calor_extremo"
+      },
+      "meta": {}
+    },
+    {
       "expectation_type": "expect_compound_columns_to_be_unique",
       "kwargs": {
         "column_list": [
@@ -46,23 +81,13 @@
       "meta": {}
     },
     {
-      "expectation_type": "expect_column_values_to_not_be_null",
+      "expectation_type": "expect_column_values_to_be_in_set",
       "kwargs": {
-        "column": "temperatura_promedio"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_values_to_not_be_null",
-      "kwargs": {
-        "column": "temperatura_minima"
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_values_to_not_be_null",
-      "kwargs": {
-        "column": "temperatura_maxima"
+        "column": "evento_calor_extremo",
+        "value_set": [
+          0,
+          1
+        ]
       },
       "meta": {}
     },
@@ -98,17 +123,7 @@
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
         "column": "temperatura_minima",
-        "max_value": 50,
-        "min_value": -60,
-        "mostly": 0.98
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_values_to_be_between",
-      "kwargs": {
-        "column": "temperatura_maxima",
-        "max_value": 70,
+        "max_value": 60,
         "min_value": -50,
         "mostly": 0.98
       },
@@ -117,28 +132,20 @@
     {
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
-        "column": "precipitacion",
-        "min_value": 0,
-        "mostly": 0.95
+        "column": "temperatura_maxima",
+        "max_value": 60,
+        "min_value": -50,
+        "mostly": 0.98
       },
       "meta": {}
     },
     {
       "expectation_type": "expect_column_values_to_be_between",
       "kwargs": {
-        "column": "velocidad_viento",
+        "column": "amplitud_termica",
+        "max_value": 70,
         "min_value": 0,
-        "mostly": 0.95
-      },
-      "meta": {}
-    },
-    {
-      "expectation_type": "expect_column_values_to_be_between",
-      "kwargs": {
-        "column": "presion",
-        "max_value": 1100,
-        "min_value": 800,
-        "mostly": 0.9
+        "mostly": 0.98
       },
       "meta": {}
     }

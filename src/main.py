@@ -4,6 +4,7 @@ from transform import transform_datasets
 from validate import validate_fact_climate_daily
 from load import load_to_warehouse
 
+
 def main():
 
     #extraccion
@@ -23,6 +24,5 @@ def main():
     load_to_warehouse(dim_city, dim_date, dim_source, fact_climate_daily)
 
     
-
 if __name__ == "__main__":
     main()

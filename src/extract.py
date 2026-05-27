@@ -29,7 +29,7 @@ def extract_meteostat():
 
     url = "https://meteostat.p.rapidapi.com/point/daily"
     headers = {
-        "x-rapidapi-key": "AQUI_TU_API_KEY_REAL",
+        "x-rapidapi-key": "fd44fbc69fmsh07d145fd64df469p134ca6jsn425ae4cad914",
         "x-rapidapi-host": "meteostat.p.rapidapi.com"
     }
 

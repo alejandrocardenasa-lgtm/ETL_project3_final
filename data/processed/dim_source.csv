@@ -1,0 +1,3 @@
+source_id,nombre_fuente,tipo_fuente
+1,IDEAM,CSV
+2,Meteostat,API

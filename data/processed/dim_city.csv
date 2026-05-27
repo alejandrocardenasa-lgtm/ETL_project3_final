@@ -1,0 +1,358 @@
+city_id,city
+1,Abriaquí
+2,Acandí
+3,Acevedo
+4,Aguachica
+5,Agustín Codazzi
+6,Albania
+7,Alcalá
+8,Aldana
+9,Algeciras
+10,Alto Baudó (Pie De Pato)
+11,Ambalema
+12,Anapoima
+13,Andes
+14,Angostura
+15,Anserma
+16,Ansermanuevo
+17,Anzoátegui
+18,Apía
+19,Aquitania
+20,Aratoca
+21,Arboledas
+22,Argelia
+23,Ariguaní (El Dificil)
+24,Arjona
+25,Armenia
+26,Ataco
+27,Ayapel
+28,Bahía Solano (Mutis)
+29,Balboa
+30,Baraya
+31,Barbacoas
+32,Barranca De Upía
+33,Barrancabermeja
+34,Barranquilla
+35,Belalcazar
+36,Bello
+37,Belén De Umbría
+38,"Bogota, D.C"
+39,Bojacá
+40,Bojayá (Bellavista)
+41,Boyacá
+42,Bucaramanga
+43,Buenaventura
+44,Buenavista
+45,Buga
+46,Cabrera
+47,Cachipay
+48,Caicedonia
+49,Cajamarca
+50,Cajibío
+51,Calarcá
+52,Cali
+53,Caparrapí
+54,Carcasí
+55,Carepa
+56,Carmen De Carupa
+57,Carmen Del Darién  (Curbaradó)
+58,Cartagena
+59,Cartagena De Indias
+60,Cartago
+61,Cañasgordas
+62,Cerrito
+63,Chaparral
+64,Charalá
+65,Chigorodó
+66,Chinavita
+67,Chinchina
+68,Chinácota
+69,Chita
+70,Chocontá
+71,Circasia
+72,Ciudad Bolívar
+73,Ciénaga
+74,Cocorná
+75,Cogua
+76,Colombia
+77,Concordia
+78,Condoto
+79,Confines
+80,Consacá
+81,Contadero
+82,Convención
+83,Corinto
+84,Cucunubá
+85,Cucutilla
+86,Cumbal
+87,Curumaní
+88,Cuítiva
+89,Cáchira
+90,Cértegui
+91,Cúcuta
+92,Dagua
+93,Dibulla
+94,Dolores
+95,Duitama
+96,El Atrato
+97,El Banco
+98,El Calvario
+99,El Carmen
+100,El Carmén De Bolívar
+101,El Colegio
+102,El Doncello
+103,El Espino
+104,El Guamo
+105,El Paso
+106,El Paujil
+107,El Rosal
+108,El Tambo
+109,Entrerrios
+110,Espinal
+111,Facatativá
+112,Florencia
+113,Florida
+114,Floridablanca
+115,Fonseca
+116,Fresno
+117,Fundación
+118,Funza
+119,Fusagasugá
+120,Fúquene
+121,Gigante
+122,Ginebra
+123,Girardot
+124,Girón
+125,Gramalote
+126,Granada
+127,Guaduas
+128,Guapi
+129,Guasca
+130,Guayatá
+131,Guicán
+132,Guática
+133,Génova
+134,Herrán
+135,Ibagué
+136,Inzá
+137,Inírida
+138,Istmina
+139,Ituango
+140,Jamundí
+141,Jardín
+142,Jericó
+143,Jurado
+144,La Calera
+145,La Capilla
+146,La Celia
+147,La Jagua De Ibirico
+148,La Palma
+149,La Plata
+150,La Sierra
+151,La Unión
+152,La Vega
+153,Labateca
+154,Lebrija
+155,Lejanías
+156,Lenguazaque
+157,Leticia
+158,Lloró
+159,Lorica
+160,Líbano
+161,Machetá
+162,Manatí
+163,Manizales
+164,Manzanares
+165,Marquetalia
+166,Marsella
+167,Marulanda
+168,Medellín
+169,Medina
+170,Medio Atrato (Beté)
+171,Melgar
+172,Mocoa
+173,Mogotes
+174,Mongua
+175,Moniquirá
+176,Montelíbano
+177,Montenegro
+178,Montería
+179,Morroa
+180,Mosquera
+181,Motavita
+182,Murillo
+183,Mutiscua
+184,Málaga
+185,Neiva
+186,Nemocón
+187,Nuquí
+188,Nátaga
+189,Nóvita
+190,Ocaña
+191,Onzaga
+192,Oporapa
+193,Orocué
+194,Pacho
+195,Paipa
+196,Palestina
+197,Palmira
+198,Pamplona
+199,Pasca
+200,Pasto
+201,Patía (El Bordo)
+202,Pauna
+203,Paz De Ariporo
+204,Pensilvania
+205,Pereira
+206,Pesca
+207,Piedecuesta
+208,Piendamó
+209,Pijao
+210,Pisva
+211,Pitalito
+212,Pivijai
+213,Planadas
+214,Planeta Rica
+215,Popayán
+216,Pueblo Bello
+217,Pueblo Rico
+218,Puente Nacional
+219,Puerres
+220,Puerto Escondido
+221,Puerto Gaitán
+222,Puerto Leguízamo
+223,Puerto López
+224,Puerto Nariño
+225,Puerto Salgar
+226,Pulí
+227,Puracé (Coconuco)
+228,Páez (Belalcázar)
+229,Quebradanegra
+230,Quetame
+231,Quibdó
+232,Quípama
+233,Repelón
+234,Restrepo
+235,Retiro
+236,Ricaurte
+237,Riohacha
+238,Rionegro
+239,Riosucio
+240,Roncesvalles
+241,Rovira
+242,Ráquira
+243,Sabana De Torres
+244,Sabanalarga
+245,Saladoblanco
+246,Salamina
+247,Salazar
+248,Salento
+249,Samacá
+250,San Agustín
+251,San Andrés
+252,San Benito Abad
+253,San Bernardo
+254,San Bernardo Del Viento
+255,San Cayetano
+256,San Jose
+257,San José Del Guaviare
+258,San José Del Palmar
+259,San Juan Del Cesar
+260,San Marcos
+261,San Pablo De Borbur
+262,San Roque
+263,San Sebastián De Buenavista
+264,San Vicente De Chucurí
+265,San Vicente Del Caguán
+266,Sandoná
+267,Santa Bárbara
+268,Santa Catalina
+269,Santa Fe De Antioquia
+270,Santa Marta
+271,Santa María
+272,Santa Rosa De Cabal
+273,Santa Rosa De Osos
+274,Santa Rosa Del Sur
+275,Santuario
+276,Saravena
+277,Sardinata
+278,Sasaima
+279,Sevilla
+280,Siachoque
+281,Sibaté
+282,Silos
+283,Silvania
+284,Simijaca
+285,Sincelejo
+286,Soacha
+287,Socha
+288,Socorro
+289,Socotá
+290,Sogamoso
+291,Soledad
+292,Sonsón
+293,Sopó
+294,Sotaquirá
+295,Suaita
+296,Subachoque
+297,Supia
+298,Suratá
+299,Tabio
+300,Tadó
+301,Taminango
+302,Tausa
+303,Tello
+304,Tena
+305,Teruel
+306,Tibacuy
+307,Tibú
+308,Tierralta
+309,Tocancipá
+310,Tolú
+311,Tona
+312,Trinidad
+313,Trujillo
+314,Tuluá
+315,Tumaco
+316,Turbo
+317,Támara
+318,Támesis
+319,Túquerres
+320,Ubaté
+321,Unguía
+322,Unión Panamericana
+323,Uribia
+324,Valdivia
+325,Valledupar
+326,Vegachí
+327,Venecia
+328,Ventaquemada
+329,Vetas
+330,Vianí
+331,Villa De Leiva
+332,Villagómez
+333,Villamaria
+334,Villapinzón
+335,Villarrica
+336,Villavicencio
+337,Villavieja
+338,Villeta
+339,Vistahermosa
+340,Vélez
+341,Yacopí
+342,Yolombó
+343,Yopal
+344,Zetaquirá
+345,Zipaquirá
+346,Zona Bananera
+347,Ábrego
+348,Berlin
+349,Lima
+350,Mexico City
+351,Buenos Aires
+352,Santiago
+353,Madrid
+354,Paris
+355,London
+356,Tokyo
+357,Washington Dc
