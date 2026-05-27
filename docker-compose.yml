@@ -1,4 +1,44 @@
+version: '3.8'
+
 services:
+  # 1. Base de datos para el Data Warehouse
+  mysql_dw:
+    image: mysql:8.0
+    container_name: mysql_dw
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: climate_dw
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  # 2. Orquestador Apache Airflow
+  airflow:
+    image: apache/airflow:2.8.2
+    container_name: airflow_orquestador
+    entrypoint: ["/bin/bash", "-c"]
+    command:
+      - |
+        pip install -r /requirements.txt
+        airflow db migrate
+        airflow users create --username admin --password admin --firstname Admin --lastname Admin --role Admin --email admin@uao.edu.co
+        airflow webserver --port 8080 &
+        airflow scheduler
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - ./src:/opt/airflow/src
+      - ./data:/opt/airflow/data
+      - ./requirements.txt:/requirements.txt
+    environment:
+      - AIRFLOW__CORE__LOAD_EXAMPLES=False
+      - AIRFLOW__CORE__EXECUTOR=SequentialExecutor
+    depends_on:
+      - mysql_dw
+
+  # 3. Zookeeper 
   zookeeper:
     image: confluentinc/cp-zookeeper:7.5.0
     container_name: zookeeper_climate
@@ -7,6 +47,7 @@ services:
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
 
+  # 4. Kafka Broker 
   kafka:
     image: confluentinc/cp-kafka:7.5.0
     container_name: kafka_climate
@@ -19,3 +60,6 @@ services:
       KAFKA_ZOOKEEPER_CONNECT: zookeeper:2181
       KAFKA_ADVERTISED_LISTENERS: PLAINTEXT://localhost:9092
       KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR: 1
+
+volumes:
+  mysql_data:

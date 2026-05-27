@@ -1,44 +1,7 @@
-# =========================
-# Python
-# =========================
-venv/
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# =========================
-# Mac / Windows
-# =========================
-.DS_Store
-Thumbs.db
-
-# =========================
-# Data
-# =========================
-
-# Ignorar archivos raw grandes
-data/raw/*
-
-# Permitir dataset principal
-!data/raw/temperature_observations_colombia_transformed.csv
-
-# =========================
-# Great Expectations
-# =========================
-gx/uncommitted/
-
-# =========================
-# Logs
-# =========================
-*.log
-
-# =========================
-# Jupyter
-# =========================
-.ipynb_checkpoints/
-
-# =========================
-# Secrets
-# =========================
 .env
+data/
+gx/
+logs/
+.ipynb_checkpoints/
+*.pyc
