@@ -14,17 +14,19 @@ __pycache__/
 Thumbs.db
 
 # =========================
-# Data 
-# Ignorar todo raw
+# Data
+# =========================
+
+# Ignorar archivos raw grandes
 data/raw/*
 
-# Permitir solo este archivo
+# Permitir dataset principal
 !data/raw/temperature_observations_colombia_transformed.csv
 
 # =========================
 # Great Expectations
 # =========================
-great_expectations/uncommitted/
+gx/uncommitted/
 
 # =========================
 # Logs
@@ -32,11 +34,11 @@ great_expectations/uncommitted/
 *.log
 
 # =========================
-# Jupyter 
+# Jupyter
 # =========================
 .ipynb_checkpoints/
 
 # =========================
-# Secrets 
+# Secrets
 # =========================
 .env
